@@ -6,9 +6,9 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "outDir": "./dist",
-      "rootDir": "./src"
+      "rootDir": "./"
     },
-    "include": ["src/**/*.ts"],
+    "include": ["src/**/*.ts", "tests/**/*.ts"],
     "exclude": ["node_modules"]
-  }
+}
   
