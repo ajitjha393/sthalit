@@ -2,12 +2,25 @@
   "name": "sthalit",
   "version": "1.0.0",
   "description": "A library that mimics the concept of lazy evaluation, a feature found in functional programming languages like Haskell.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajitjha393/sthalit.git"
+  },
+  "keywords": [
+    "lazy",
+    "evaluation",
+    "lazy evaluation",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Bishwajit Jha <ajitjha393>",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
